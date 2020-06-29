@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>::main::</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <script src="../js/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <div class="top-bar">
+        <header>
+            <nav>
+                <ul>
+                    <a href="#">
+                        <li>홈</li>
+                    </a>
+                    <a href="#">
+                        <li>로그인</li>
+                    </a>
+                    <a href="#">
+                        <li>마이페이지</li>
+                    </a>
+                    <a href="#">
+                        <li>고객센터</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="sub-bar"></div>
+    <style>
+        section {
+            width: 1000px;
+            padding-top: 60px;
+            margin: 0 auto 120px;
+        }
+
+        .profile-wrap {
+            width: 100%;
+            border: 1px solid #c0c0c0;
+            display: inline-block;
+            margin-top: 85px;
+        }
+
+        .profile {
+            width: 300px;
+            overflow: hidden;
+            margin: 40px 0px 40px 55px;
+            float: left;
+        }
+
+        .profile img {
+            width: 80px;
+            height: 80px;
+            float: left;
+        }
+
+        .profile h1 {
+            margin-top: 15px;
+            margin-left: 85px;
+            line-height: 30px;
+        }
+
+        .profile p {
+            margin-left: 85px;
+        }
+
+        .res-result li:nth-child(1) {
+            border-left: 1px solid #373b44;
+        }
+
+        .res-result li {
+            width: 140px;
+            height: 70px;
+            border-right: 1px solid #373b44;
+            display: inline-block;
+            text-align: center;
+            margin: 45px 0;
+        }
+
+        .res-result li * {
+            position: relative;
+            top: -20px;
+        }
+
+        .res-result li img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .res-result li p {
+            font-size: 14px;
+        }
+
+        .res-result li h1 {
+            font-size: 30px;
+            font-weight: 800;
+            top: -10px;
+        }
+
+        .res-wrap {
+            width: 902px;
+            height:670px;
+            padding: 50px 50px 0px;
+            background-color: #e7e7e7;
+        }
+
+        .res-card {
+            width: 900px;
+            margin: 30px 0;
+        }
+
+        .res-type {
+            padding: 5px 0 10px 15px;
+            background-color: #c0c0c0;
+            font-size: 18px;
+            font-weight: 800;
+            color: #373b44;
+            overflow: hidden;
+        }
+
+        .res-card .res-type img {
+            width: 35px;
+            height: 35px;
+            position: relative;
+            top: 2px;
+            float: left;
+        }
+
+        .res-card .res-type p {
+            margin-top: 10px;
+            margin-left: 45px;
+        }
+
+        .res-main {
+            width: 780px;
+            padding: 1px 60px 45px;
+            background-color: white;
+        }
+
+        .res-main .res-no {
+            margin: 25px 0px;
+            font-size: 14px;
+        }
+
+        .res-main h1 {
+            font-weight: 800;
+            padding: 0 0 8px 15px;
+            margin: 0 0 25px -15px;
+            border-bottom: 1px solid;
+        }
+
+        .res-main p {
+            color: #373b44;
+        }
+        .paging{
+            text-align: center;
+            letter-spacing: 10px;
+        }
+    </style>
+    <section>
+        <div class="profile-wrap">
+            <div class="profile">
+                <img src="../img/person1.png" alt="">
+                <h1>씨닥터님</h1>
+                <p>SeeDoc0629</p>
+            </div>
+            <ul class="res-result">
+                <li>
+                    <img src="../img/mypage-1.png" alt="">
+                    <p>전체</p>
+                    <h1>12</h1>
+                </li>
+                <li>
+                    <img src="../img/mypage-2.png" alt="">
+                    <p>이용예정</p>
+                    <h1>7</h1>
+                </li>
+                <li>
+                    <img src="../img/mypage-3.png" alt="">
+                    <p>이용완료</p>
+                    <h1>3</h1>
+                </li>
+                <li>
+                    <img src="../img/mypage-4.png" alt="">
+                    <p>취소환불</p>
+                    <h1>2</h1>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="res-wrap">
+            <h1><span>●</span> 내 예약</h1>
+            <div class="res-card">
+                <div class="res-type">
+                    <img src="../img/mypage-3.png" alt="">
+                    <p>이용완료</p>
+                </div>
+                <div class="res-main">
+                    <p class="res-no">No.20200628</p>
+                    <h1>서울삼성병원 - 가나다 교수</h1>
+                    <p>일정 : 2020.06.26(금) 오후 4:00</p>
+                    <p>진료 : 이비인후과</p>
+                </div>
+            </div>
+            <div class="res-card">
+                <div class="res-type">
+                    <img src="../img/mypage-3.png" alt="">
+                    <p>이용완료</p>
+                </div>
+                <div class="res-main">
+                    <p class="res-no">No.20200628</p>
+                    <h1>서울삼성병원 - 가나다 교수</h1>
+                    <p>일정 : 2020.06.26(금) 오후 4:00</p>
+                    <p>진료 : 이비인후과</p>
+                </div>
+            </div>
+            <div class="paging">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
+                            height="11px">
+                            <path fill-rule="evenodd" fill="rgb(55, 59, 68)"
+                                d="M0.818,4.634 C1.177,4.275 1.758,4.275 2.117,4.634 L6.014,8.531 C6.372,8.889 6.372,9.471 6.014,9.830 C5.655,10.188 5.074,10.188 4.715,9.830 L0.818,5.933 C0.459,5.574 0.459,4.993 0.818,4.634 Z" />
+                            <path fill-rule="evenodd" fill="rgb(55, 59, 68)"
+                                d="M0.818,5.067 L4.715,1.170 C5.074,0.812 5.655,0.812 6.014,1.170 C6.372,1.529 6.372,2.110 6.014,2.469 L2.117,6.366 C1.758,6.725 1.177,6.725 0.818,6.366 C0.459,6.007 0.459,5.426 0.818,5.067 Z" />
+                        </svg>
+                    </a>
+                    <a href="#" style="font-weight: 800;">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
+                            height="11px">
+                            <path fill-rule="evenodd" fill="rgb(55, 59, 68)"
+                                d="M6.026,6.397 C5.667,6.756 5.085,6.756 4.727,6.397 L0.830,2.500 C0.471,2.142 0.471,1.560 0.830,1.201 C1.189,0.843 1.770,0.843 2.129,1.201 L6.026,5.098 C6.384,5.457 6.384,6.038 6.026,6.397 Z" />
+                            <path fill-rule="evenodd" fill="rgb(55, 59, 68)"
+                                d="M6.026,5.964 L2.129,9.861 C1.770,10.220 1.189,10.220 0.830,9.861 C0.471,9.502 0.471,8.920 0.830,8.562 L4.727,4.665 C5.085,4.306 5.667,4.306 6.026,4.665 C6.384,5.024 6.384,5.605 6.026,5.964 Z" />
+                        </svg>
+                    </a>
+                </div>
+        </div>
+        
+    </section>
+</body>
+
+</html>
