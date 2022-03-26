@@ -1,0 +1,134 @@
+section {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.bk-main-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bk-logo-wrap .hos-logo img:nth-child(1) {
+    width: 323px;
+    margin: 50px 120px 0 75px;
+    position: relative;
+    z-index: 1;
+}
+
+.bk-logo-wrap .hos-logo img:nth-child(2) {
+    width: 535px;
+}
+
+.opa-back {
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 374px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    margin: 50px 0px 30px;
+    padding-left: 50px;
+}
+
+.doc-wrap {
+    width: 967px;
+    border: 2px solid #ededed;
+    margin: 0px auto 25px;
+    overflow: hidden;
+}
+
+.doc-img {
+    overflow: hidden;
+    float: left;
+}
+
+.doc-img img {
+    width: 200px;
+    height: 220px;
+}
+
+.doc-info {
+    padding: 45px 64px 64px;
+    float: left;
+}
+
+.doc-info h1 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #373b44;
+    margin-bottom: 30px;
+}
+
+.doc-info p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #373b44;
+}
+.text-label {
+    font-size: 24px;
+    margin: 15px 10px 5px 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+.user-input {
+    width: 345px;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin: 0px auto 15px;
+    border: 1px solid #cdcdcd;
+}
+.user-input:focus {
+    outline: 1px solid #4286f4;
+}
+.submit-btn {
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin-top: 25px;
+    float: right;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+.add-doc {
+	width: 180px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin: 40px 65px 30px 0px;
+    float: right;
+    border: 1px solid #cdcdcd;
+}
+h1 {
+	width: 500px;
+	display: inline-block;
+}
+
+div#pageBar{margin-top:10px; text-align:center;}
+div#pageBar span.cPage{color: black; margin-right: 5px;}
+div#pageBar a{margin-right: 5px;}
+select {
+	width: 362px;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin: 0px auto 15px;
+    border: 1px solid #cdcdcd;
+}
+select:focus {
+    outline: 1px solid #4286f4;
+}

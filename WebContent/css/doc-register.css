@@ -1,0 +1,145 @@
+section {
+    width: 100%;
+    background: url("../img/back.png");
+    background-position: center;
+    padding: 125px 0px;
+    background-size: cover;
+}
+
+article {
+    width: 550px;
+    background-color: white;
+    margin: 30px auto 0px;
+    padding-bottom: 60px;
+}
+
+.register h1 {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #4286f4;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.register {
+    padding-top: 35px;
+    width: 370px;
+    margin: 0 auto;
+}
+
+.register .text-label {
+    font-size: 17px;
+    margin: 15px 0px 5px 8px;
+    display: block;
+}
+
+.reg-type {
+    overflow: hidden;
+}
+
+.reg-type div {
+    width: 180px;
+    height: 40px;
+    float: left;
+    background-color: #4286f4;
+    border: 1px solid #4286f4;
+    border-bottom: 3px solid #4286f4;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+
+.register .off {
+    background-color: white;
+    color: black;
+    border: 1px solid #cdcdcd;
+    border-bottom: 3px solid #4286f4;
+}
+
+.register .user-input {
+    width: 345px;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin: 0px auto 15px;
+    border: 1px solid #cdcdcd;
+}
+
+.register .check-input {
+    width: 220px;
+}
+
+.register .check-btn {
+    width: 125px;
+    height: 47px;
+    background-color: #cdcdcd;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17.5px;
+    display: inline-block;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+.register .check-btn:hover {
+    background-color: #4286f4;
+}
+
+input[name="gender"] {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    position: relative;
+    top: 4px;
+}
+
+.register .user-input:focus {
+    outline: 1px solid #4286f4;
+}
+
+.register .user-input::placeholder {
+    color: #cdcdcd;
+}
+.btn-wrap{
+    overflow: hidden;
+}
+.submit-btn {
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin-top: 25px;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+span {
+	color: red;
+}
+select {
+	width: 362px;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin: 0px auto 15px;
+    border: 1px solid #cdcdcd;
+}
+fieldset {
+	padding: 10px;
+	border: 1px solid lightgray;
+}
+select:focus {
+    outline: 1px solid #4286f4;
+}

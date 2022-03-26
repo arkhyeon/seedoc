@@ -1,0 +1,41 @@
+
+section {
+    width: 100%;
+    height: 810px;
+    background: url("../img/back.png") no-repeat;
+    background-position: center;
+    padding-top: 125px;
+}
+article {
+	 width: 550px;
+	 height: 300px;
+    background-color: white;
+    margin:120px auto 0px;
+	text-align : center;
+}
+.table .from-control{
+    border: 1px solid #cdcdcd;
+    width:250px;
+    height:30px;
+    font-size: 18px;
+    padding-left: 15px;
+    margin: 0px auto 15px;
+    left : 40%;
+	transform : translateX(-40%);
+}
+.btn{
+	   width:360px;
+    height:45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin-top:25px;
+}
+.text-label {
+    font-size: 20px;
+    margin: 0px 5px 5px 8px;
+    display: block;
+}

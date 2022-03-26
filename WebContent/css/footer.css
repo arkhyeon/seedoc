@@ -1,0 +1,27 @@
+footer{
+    background-color: #373b44;
+    padding: 65px 0;
+    
+}
+footer ul{
+    width:570px;
+    margin:0 auto 35px;
+    overflow: hidden;
+}
+
+footer ul li{
+    margin-left: 35px;
+    float: left;
+}
+
+footer ul li *{
+    color:#fffde4;
+    font-weight: 800;
+    font-size: 18px;
+}
+footer p{
+    text-align: center;
+    color:#fffde4;
+    font-size: 15px;
+    line-height: 35px;
+}

@@ -1,0 +1,85 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+input[type=password] {
+    font-family: 'Open Sans', sans-serif;
+}
+input[type=password]::placeholder{
+    font-family: 'NanumSquare', sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'NanumSquare', sans-serif;
+}
+a{
+    color:black;
+}
+
+.top-bar {
+    width: 100%;
+    height: 75px;
+    background-color: #4286f4;
+    position: fixed;
+    z-index: 10;
+}
+
+.sub-bar {
+    width: 100%;
+    height: 15px;
+    background-color: #83b2ff;
+    position: fixed;
+    top:75px;
+    z-index: 10;
+}
+
+header {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+	width:83%;
+	float:left;
+}
+
+header nav ul {
+    margin: 41px 0 16px;
+    text-align: right;
+}
+
+header nav ul li {
+    padding: 0 8px;
+    font-size: 12px;
+    display: inline;
+}
+
+header nav ul a:nth-child(n+2) li {
+    border-left: 1px solid black;
+}
+
+.logo {
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    float: left;
+}
+
+.logo img {
+    width: 200px;
+    height: 75px;
+}
+.login1{
+	font-size: 18px;
+	color: white;
+}
+
+#search-container{
+	text-align: center;
+}
+#search-container input{
+	
+}

@@ -1,0 +1,155 @@
+section {
+    width: 1000px;
+    padding-top: 60px;
+    margin: 0 auto 120px;
+}
+
+.profile-wrap {
+    width: 100%;
+    border: 1px solid #c0c0c0;
+    display: inline-block;
+    margin-top: 85px;
+}
+
+.profile {
+    width: 300px;
+    overflow: hidden;
+    margin: 40px 0px 40px 55px;
+    float: left;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.profile h1 {
+    margin-top: 15px;
+    margin-left: 85px;
+    line-height: 30px;
+}
+
+.profile p {
+    margin-left: 85px;
+}
+
+.res-result li:nth-child(1) {
+    border-left: 1px solid #373b44;
+}
+
+.res-result li {
+    width: 140px;
+    height: 70px;
+    border-right: 1px solid #373b44;
+    display: inline-block;
+    text-align: center;
+    margin: 45px 0;
+}
+
+.res-result li * {
+    position: relative;
+    top: -20px;
+}
+
+.res-result li img {
+    width: 40px;
+    height: 40px;
+}
+
+.res-result li p {
+    font-size: 14px;
+}
+
+.res-result li h1 {
+    font-size: 30px;
+    font-weight: 800;
+    top: -10px;
+}
+
+.res-wrap {
+    width: 902px;
+    height: 670px;
+    padding: 50px 50px 0px;
+    background-color: #e7e7e7;
+}
+
+.res-card {
+    width: 900px;
+    margin: 30px 0;
+}
+
+.res-type {
+    padding: 5px 0 10px 15px;
+    background-color: #c0c0c0;
+    font-size: 18px;
+    font-weight: 800;
+    color: #373b44;
+    overflow: hidden;
+}
+
+.res-card .res-type img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 2px;
+    float: left;
+}
+
+.res-card .res-type p {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.res-main {
+    width: 780px;
+    padding: 1px 60px 45px;
+    background-color: white;
+}
+
+.res-main .res-no {
+    margin: 25px 0px;
+    font-size: 14px;
+}
+
+.res-main h1 {
+    font-weight: 800;
+    padding: 0 0 8px 15px;
+    margin: 0 0 25px -15px;
+    border-bottom: 1px solid;
+}
+
+.res-main p {
+    color: #373b44;
+}
+
+.paging {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.tbl-booking{
+    text-align: center;
+	width:100%; 
+	border:1px solid #373b44; 
+	border-collapse:collapse;
+}
+
+.tbl-booking tr{
+    text-align: center;
+}
+
+.tbl-booking th{
+    height: 20px; 
+    border: 1px solid #373b44;
+    text-align: center;
+    padding: 10px;
+}
+
+.tbl-booking td{
+    height: 20px; 
+    border: 1px solid #373b44;
+    text-align: center;
+    padding: 10px;
+}

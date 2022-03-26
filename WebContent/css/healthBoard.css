@@ -1,0 +1,116 @@
+section {width: 1000px; padding-top: 100px; margin: 0 auto;}
+section h1 {text-align: center; font-size: 50px; font-weight: 800; margin: 30px 0px 50px;}
+
+.bbc {width: 1000px; margin: 0 auto; text-align: center; border-top: 2px solid black; border-bottom: 1px solid black; border-spacing: 0;}
+.bbc tr th {padding: 25px 0; border-bottom: 1px solid black;}
+.bbc tr td {border-bottom: 1px solid #d5d5d5;}
+.list-back:nth-child(2n+1) td{background: #9e9e9e47;}
+.bbc td {padding: 25px 0px;}
+
+/* 페이징처리 */
+.paging {text-align: center; letter-spacing: 10px; font-size: 20px; margin: 50px 0px 40px;}
+.paging2 {text-align: center; letter-spacing: 10px; font-size: 20px; margin: -25px 0px 40px;}
+
+
+/* 게시판 검색 */
+.search-wrap {width: 450px; overflow: hidden; margin: 0 auto;}
+.search-wrap input[type="search"] {width: 220px; height: 35px; border: 1px solid #cdcdcd; outline: none; float: left; margin-left: 3px}
+.search-wrap input[type="search"]:focus {outline: 1px solid #4286f4;}
+.search-wrap input[type="date"] {width: 220px; height: 35px; border: 1px solid #cdcdcd; outline: none; float: left; margin-left: 3px}
+.search-wrap input[type="date"]:focus {outline: 1px solid #4286f4;}
+select{width: 100px; height: 35px; float: left; border: 1px solid #cdcdcd; font-size: 16px;}
+
+/* 버튼 */
+
+input[type="button"] {width: 100px; height: 35px; background-color: #cdcdcd; color: white; border: none; outline: none; cursor: pointer; margin-bottom: 25px;}
+input[type="button"]:hover {background-color: tomato; color: white;}
+input#btn-add1{float:right; margin: 0 0 15px;}
+
+
+/* 회원가입 */
+.bbc1 {width: 740px; margin: 0 auto; text-align: center; border-top: 2px solid black; border-bottom: 1px solid black; border-spacing: 0; margin-bottom: 40px}
+.bbc1 tr th {padding: 25px 0; border-bottom: 1px solid black;}
+.bbc1 tr td {border-bottom: 1px solid black;}
+.bbc1 td {padding: 25px 0px;}
+#boardTitle{text-align: center; width: 80%; height: 70%; font-size: 20px}
+#boardWriter{text-align: center; width: 50%; height: 50%; font-size: 20px}
+
+
+input[type="submit"]{float:right; margin: 0 0 15px; width: 100px; height: 35px; background-color: #cdcdcd; color: white; border: none; outline: none; cursor: pointer;}
+input[type="submit"]:hover {background-color: tomato; color: white;}
+
+input[type="file"]{position: absolute; width: 1px; height:1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0}
+.filebox label { display: inline-block; padding: 8px 10px; color: #999; background-color: #fdfdfd; cursor: pointer; border: 1px solid #ebebeb; border-bottom-color: #e2e2e2; border-radius: .25em; }
+.filebox label:hover {color: white;background-color: tomato;}
+.upload-name{text-align: center; width: 40%;padding: 5px 1px;  font-size: 20px }
+
+.filebox .upload_display{margin-bottom: 5px;}
+.filebox .upload_display{display: inline-block;margin-right: 5px; margin-bottom: 0;}
+.filebox .upload_wrap{display: inline-block; width: 45px; border: 1px solid #cdcdcd; margin-bottom:-10px;}
+.filebox .upload_display img{display: block; max-width: 100%; width: 100%; height: auto}
+
+/* 게시판 보기 */
+.title1{width: 245px}
+.title2{color: #242d9a; font-weight: bold;font-size: 18px}
+.bbc2 {width: 740px; margin: 0 auto; text-align: center; border-top: 2px solid black; border-bottom: 1px solid black; border-spacing: 0; margin-bottom: 40px}
+.bbc2 tr th {padding: 25px 0; border-bottom: 1px solid black; width: 222px}
+.btn1{text-align: left; float: left;}
+.btn2{float:left; padding-left:44%; height: 60px}
+.bbc2 tr td {border-bottom: 1px solid black;}
+.bbc2 td {padding: 25px 0px;}
+
+.switch {position: relative;display: inline-block; width: 60px; height: 34px;}
+.switch input {opacity: 0; width: 0; height: 0;}
+.slider {position: absolute; margin-bottom:5px; cursor: pointer; top: 1px; left: 0; right: 12px; bottom: 4px; background-color: #ccc; -webkit-transition: .4s; transition: .4s;}
+.slider:before {position: absolute; content: ""; height: 14px; width: 14px; left: 4px; bottom: 5px; background-color: white; -webkit-transition: .4s; transition: .4s;}
+input:checked + .slider {background-color: #4286f4;}
+input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px); transform: translateX(26px);}
+.slider.round {border-radius: 15px;}
+.slider.round:before {border-radius: 50%;}
+.upload-name2{text-align: center; width: 65%;padding: 5px 1px;  font-size: 20px; cursor: pointer; }
+.img1{margin-bottom: -14px;}
+
+/* 댓글관련 */
+table#tbl-comment{width:100%; margin:0 auto; border-collapse:collapse; } 
+table#tbl-comment tr td{border-bottom:0px; border-top:0px; padding:5px; text-align:left; line-height:120%;}
+table#tbl-comment tr td:first-of-type {padding: 5px 5px 5px 50px;}
+table#tbl-comment tr td:last-of-type {text-align:right; width: 100px;}
+table#tbl-comment button.btn-reply{height:30px; width:40%; margin-right:1px; cursor:pointer; border-top-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px; border-bottom-left-radius:5px; display:none; border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue; padding: 5px}
+.level1 {background:#6686a026;}
+table#tbl-comment tr:hover {background:#bd333926;}
+table#tbl-comment tr:hover button.btn-reply{display:inline;}
+table#tbl-comment tr:hover button.btn-reply:hover {background: #00B4DB; background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); background: linear-gradient(to right, #0083B0, #00B4DB); color: white; border: 1px solid white;}
+table#tbl-comment sub.comment-writer {font-size:16px}
+table#tbl-comment sub.comment-date {font-style:italic; color:#ff5722; font-size:12px}
+.comment-editor textarea {margin-left:8px; border:2px solid #cdcdcd; padding:7px 5px; resize: none; width: 82%; text-indent: 1em; font-size: 15px; float: left; margin-bottom: 10px;}
+.BackCommentWrit{background:white; font-weight:bold; border:2px solid #9e9e9e8a; width: 65px;height:21px; text-align: center;}
+
+
+table#tbl-comment tr.level2 {color:gray; font-size: 14px;}
+table#tbl-comment tr.level2 td:first-of-type{padding-left:75px;}
+table#tbl-comment tr.level2 sub.comment-writer { font-size:14px}
+table#tbl-comment tr.level2 sub.comment-date {font-style:italic; color:#ff9c8a; font-size:11px}
+
+/* 첨부파일관련 */
+.upload-name1{text-align: center; width: 40%; padding: 5px 1px; font-size: 20px;}
+
+/*답글관련*/
+table#tbl-comment textarea{margin: 4px 0 0 0;}
+table#tbl-comment button.btn-insert2{width:7%; cursor:pointer; border-top-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px; border-bottom-left-radius:5px; border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue; padding: 5px; position:relative; top:-10px; left:10px;}
+table#tbl-comment button.btn-insert2:hover{background: #00B4DB; background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); background: linear-gradient(to right, #0083B0, #00B4DB); color: white; border: 1px solid white;}
+
+/* 삭제버튼관련 */
+table#tbl-comment button.btn-delete{height:30px; width:40%; margin-left:-3px; cursor:pointer; border-top-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px; border-bottom-left-radius:5px; display:none; border: 1px solid skyblue; background-color: rgba(0,0,0,0); color: skyblue; padding: 5px}
+table#tbl-comment tr:hover button.btn-delete{display:inline;}
+table#tbl-comment tr:hover button.btn-delete:hover{background: #FF416C; background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C); background: linear-gradient(to right, #FF4B2B, #FF416C); color: white; border: 1px solid white;}
+
+
+
+
+
+
+
+
+
+

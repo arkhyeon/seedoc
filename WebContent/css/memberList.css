@@ -1,0 +1,139 @@
+section {
+	width: 1100px;
+	padding-top: 60px;
+	margin: 0 auto 120px;
+}
+
+.res-wrap {
+	width: 1098px;
+	padding-top: 50px;
+}
+
+.res-card {
+	width: 1100px;
+	margin: 30px 0;
+}
+
+.res-card .res-type img {
+	width: 35px;
+	height: 35px;
+	position: relative;
+	top: 2px;
+	float: left;
+}
+
+.res-card .res-type p {
+	margin-top: 10px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.res-main {
+	width: 780px;
+	padding: 1px 60px 45px;
+	background-color: white;
+}
+
+.res-main .res-no {
+	margin: 25px 0px;
+	font-size: 14px;
+}
+
+.res-main h1 {
+	font-weight: 800;
+	padding: 0 0 8px 15px;
+	margin: 0 0 25px -15px;
+	border-bottom: 1px solid;
+}
+
+.res-main p {
+	color: #373b44;
+}
+
+.paging {
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.tbl-member {
+	text-align: center;
+	width: 100%;
+	border: 1px solid #373b44;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.tbl-member tr {
+	text-align: center;
+}
+
+.tbl-member tr:nth-child(1) {
+	background-color: #4286F4;
+	color: white;
+}
+
+.tbl-member tr:nth-child(n+2):hover {
+	background-color: #ebebeb;
+}
+
+.tbl-member th {
+	height: 20px;
+	border: 1px solid #373b44;
+	text-align: center;
+	padding: 10px;
+}
+
+.tbl-member td {
+	height: 20px;
+	border: 1px solid #373b44;
+	text-align: center;
+	padding: 5px;
+}
+
+.tbl-member td input {
+	display: block;
+	margin: 3px auto;
+}
+
+.off-screen {
+	display: none;
+}
+
+div#search-container {
+	margin: 0 0 10px 0;
+	padding: 3px;
+	background-color: #4286f4;
+	width: 100%;
+	color:white;
+}
+
+div#search-memberId {
+	display: inline-block;
+}
+
+div#search-memberName {
+	display: none;
+}
+
+div#search-gender {
+	display: none;
+}
+
+div#search-hospId {
+	display: inline-block;
+}
+
+div#search-hospName {
+	display: none;
+}
+
+div#search-hospAddr {
+	display: none;
+}
+
+div#search-container button{
+	background-color: white;
+    border: 0;
+    width: 40px;
+    height: 18px;
+}

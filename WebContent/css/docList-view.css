@@ -1,0 +1,129 @@
+section {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.bk-main-wrap {
+    width: 300px;
+    margin: 30px 33px;
+    float: left;
+}
+.bk-logo-wrap .hos-logo img{
+	width:50%;
+	float: left;
+}
+.bk-logo-wrap .hos-logo img:nth-child(2){
+	height:490px;
+}
+.hos-logo{
+	width:1100px ;
+	height:400px;
+	overflow: hidden;
+	padding-top:90px;
+}
+.opa-back {
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+}
+
+.title {
+    margin: 50px 0px 30px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.doc-wrap {
+    width: 300px;
+    border: 2px solid #ededed;
+}
+
+.doc-img {
+	width: 300px;
+}
+
+.doc-img img {
+    width: 300px;
+    height: 350px;
+}
+
+.doc-info {
+    padding: 20px 25px 25px;
+}
+
+.doc-info h1 {
+    font-weight: 800;
+    font-size: 26px;
+    color: #373b44;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.doc-info p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #373b44;
+}
+.doc-info input, .doc-info label, select{
+	font-size: 16px;
+    line-height: 24px;
+    color: #373b44;
+    margin-bottom: 10px;
+}
+
+.bk-info-wrap {
+    width: 1000px;
+    float: left;
+    margin: 7px 0px 60px;
+    padding-bottom: 30px;
+}
+
+input.submit-btn {
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin-top: 15px;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+
+div#pageBar{margin: 10px 0px; text-align:center; clear: both;}
+div#pageBar span.cPage{color: black; margin-right: 5px;font-weight:800;font-size:18px;}
+div#pageBar a{margin-right: 5px;font-weight:800;font-size:18px;}
+.add-doc {
+	width: 180px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin: 40px 0px 30px 490px;
+    display:inline-block;
+    border: 1px solid #cdcdcd;
+}
+button {
+	width: 118px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin-top: 20px;
+    margin-right: 5px;
+    display:inline-block;
+    border: 1px solid #cdcdcd;
+    outline: none;
+    cursor:pointer;
+}

@@ -1,0 +1,78 @@
+section {
+    width: 1000px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 30px 0px 50px;
+}
+
+.bbc {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+    border-spacing: 0;
+}
+
+.bbc tr th {
+    padding: 25px 0;
+    border-bottom: 1px solid black;
+}
+
+.bbc tr td {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.bbc td {
+    padding: 25px 0px;
+}
+
+.paging {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin: 50px 0px 40px;
+}
+
+.search-wrap {
+    width: 420px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.search-wrap input[type="search"] {
+    width: 220px;
+    height: 35px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+    float: left;
+}
+
+.search-wrap input[type="search"]:focus {
+    outline: 1px solid #4286f4;
+}
+
+.search-wrap input[type="button"] {
+    width: 100px;
+    height: 35px;
+    background-color: #cdcdcd;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+select{
+    width: 100px;
+    height: 35px;
+    float: left;
+    border: 1px solid #cdcdcd;
+    font-size: 16px;
+}

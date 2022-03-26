@@ -1,0 +1,27 @@
+
+section {
+    width: 100%;
+    height: 810px;
+    background: url("../img/back.png") no-repeat;
+    background-position: center;
+    padding-top: 125px;
+}
+article {
+	 width: 500px;
+	 height: 150px;
+    background-color: white;
+    margin:120px auto 0px;
+	text-align : center;
+}
+
+.btn{
+	   width:360px;
+    height:45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+    background-color: #4286f4;
+    margin-top:25px;
+}
